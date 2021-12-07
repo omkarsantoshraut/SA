@@ -1,3 +1,3 @@
 # SA
 
-[Click here](https://sentimentanalysis333.herokuapp.com/)
+Check out the live project [here.](https://sentimentanalysis333.herokuapp.com/)
