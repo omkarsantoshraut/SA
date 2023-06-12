@@ -168,10 +168,10 @@ elif sidebar == 'Sentiment Analysis Of Tweets':
         st.plotly_chart(fig)
         st.markdown('<hr>', True)
 
-        st.write('Word cloud of the fetched tweets:')
-        word_cloud = WordCloud(collocations = False, background_color = 'white').generate(alltweets)
-        st.image(word_cloud.to_array())
-        st.markdown('<hr>', True)
+        # st.write('Word cloud of the fetched tweets:')
+        # word_cloud = WordCloud(collocations = False, background_color = 'white').generate(alltweets)
+        # # st.image(word_cloud.to_array())
+        # st.markdown('<hr>', True)
 
         fig = go.Figure(data=go.Scatter(x=posts_df.index.tolist(), y=posts_df['polarity'].values.tolist(), mode='markers+lines'))
         fig.update_layout(
